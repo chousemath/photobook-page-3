@@ -21,7 +21,6 @@ function checkValues() {
   var val7 = $('#input-7').val();
   var word = val0 + val1 + val2 + val3 + val4 + val5 + val6 + val7;
   if (word === 'XWP5myv0') {
-    console.log('success');
     $('#container-puzzle').hide();
     var video = $('#container-video');
     video.show();

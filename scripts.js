@@ -62,3 +62,5 @@ $('#input-6').bind('input', function() {
 $('#input-7').bind('input', function() {
   checkValues();
 });
+
+$('#input-0').focus();
